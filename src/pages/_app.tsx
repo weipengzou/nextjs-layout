@@ -1,10 +1,15 @@
+/*
+ * @Author: ZWP
+ * @LastEditors: ZWP
+ * @Description:
+ */
 import "../styles/base.scss";
 import type { AppProps } from "next/app";
 import { useEffect } from "react";
 import MyHead from "./MyHead";
 import Layout from "../components/layout";
 import i18n from "./i18n";
-
+import "antd/dist/antd.css";
 import { I18nextProvider } from "react-i18next";
 
 export function reportWebVitals(metric: any) {

@@ -1,3 +1,8 @@
+/*
+ * @Author: ZWP
+ * @LastEditors: ZWP
+ * @Description:
+ */
 /* eslint-disable @next/next/no-img-element */
 import style from "./index.module.scss";
 import { useEffect } from "react";
@@ -62,11 +67,3 @@ export async function getStaticProps() {
 }
 
 export default Demo;
-
-// {
-//   /* <img
-//   src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/product/1602499652758/images/nex-hifi-img1-lg.jpg"
-//   alt="Picture of the author"
-//   className={style.testimg}
-// /> */
-// }
